@@ -7,10 +7,6 @@ def show_magicians(magicians_list) :
         name = make_great(name.title())
         print(name)
 
-def main() :
+if __name__ == "__main__" :
     magicians_list = ['mike', 'foo', 'buzz', 'bar']
     show_magicians(magicians_list)
-
-# =================main function====================
-
-main()

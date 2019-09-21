@@ -7,9 +7,8 @@ def make_great(magicians_list) :
 def show_magicians(magicians_list) :
     return make_great(magicians_list)
 
-# =================main function====================
-
-magicians_list = ['mike', 'foo', 'buzz', 'bar']
-new_list = show_magicians(magicians_list)
-print(new_list)
-print(magicians_list)
+if __name__ == "__main__" :
+    magicians_list = ['mike', 'foo', 'buzz', 'bar']
+    new_list = show_magicians(magicians_list)
+    print(new_list)
+    print(magicians_list)

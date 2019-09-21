@@ -10,7 +10,6 @@ def show_magicians(magicians_list) :
     for name in magicians_list :
         print(name)
 
-# =================main function====================
-
-magicians_list = ['mike', 'foo', 'buzz', 'bar']
-show_magicians(magicians_list)
+if __name__ == "__main__" :
+    magicians_list = ['mike', 'foo', 'buzz', 'bar']
+    show_magicians(magicians_list)
